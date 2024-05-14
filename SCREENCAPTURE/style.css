@@ -1,0 +1,212 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+:root{
+    --medium: rgb(199,21,133);
+    --blue: rgb(0,0,255);
+    --ye: rgb(255,255,0);
+}
+
+
+/* NAVBAR */
+
+.img-1{
+    width: 150px;
+}
+
+.navbar{
+    background-color: var(--medium);
+}
+
+/* FINE NAVBAR */
+
+
+/* PRIMA HEADER-SECTION */
+
+.img-2{
+    width: 300px;
+    margin-top: 1pc;
+    margin-bottom: 1pc;
+}
+
+
+.custom-1{
+    background-image: url(bg-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-1{
+    background-color: var(--ye);
+    border-radius: 10px;
+}
+
+.bi-calendar-minus-fill{
+    color: var(--medium);
+}
+
+.calendar{
+    margin-left: 12pc;
+}
+
+
+
+.image-1{
+    animation: slide 2s;
+}
+
+@keyframes slide {
+    0%{transform: translateX(100%);}
+    100%{transform: translateY(0%);}
+}
+
+
+
+
+/* SECTION-2  */
+
+.custom-2{
+    height: 100vh;
+    background-image: url(bg-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* END SECTION-2 */
+
+/* SECTION-3 */
+
+.customer-3{
+    height: 100vh;
+    background-image: url(bg-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-primary{
+    width: 100px;
+    padding: 7px;
+    background-color: var(--medium);
+}
+
+.btn-primary:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.form-custom{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(87,5,75,1) 75%);
+    border-radius: 7px;
+}
+
+.form-title{
+    font-size: 26px;
+}
+
+.form-label{
+    font-size: 13px;
+}
+
+
+#gridCheck{
+    background-color: var(--medium);
+}
+
+
+.form-control{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(87,5,75,1) 75%);
+    color: white;
+}
+
+/* END SECTION-3 */
+
+
+/* SECTION-4 */
+
+.image-4{
+    width: 140px;
+}
+
+.section4-custom{
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(87,5,75,1) 75%);
+}
+
+.custom-4{
+    width: 140px;
+}
+
+
+/* END SECTION-4 */
+
+
+/* SECTION-5 */
+
+.image-5{
+    width: 280px;
+}
+
+.section5-custom{
+    background-image: url(bg-1.jpg);
+    background-attachment: fixed;
+    height: auto;
+}
+
+/* END SECTION-5 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:680px) {
+    .calendar{
+        width: 210px!important;
+        margin-left: 7pc;
+    }
+
+
+
+ .image-5{
+    
+    width: 100%;
+ }
+  
+ .custom-6{
+    width: auto;
+}
+
+}
